@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-body{
-  
-}
+
 
 .header{
     margin: 20px;
@@ -17,10 +15,25 @@ body{
 }
 
 .conten-section{
+    display: flex;
     margin: 20px;
     background: rgb(167, 155, 247);
     width: 98%;
     height: 100vmin;
     border: 4px solid rgb(151, 138, 231);
     border-radius: 4px;
+}
+
+.izq{
+    display: flex;
+    width: 50%;
+    margin-right: 10px;
+    border: 1px solid red;
+}
+
+.der{
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
+    border: 1px solid red;
 }
