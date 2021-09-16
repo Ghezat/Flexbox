@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-
 .header{
     display: flex;
     justify-content: center;
@@ -46,7 +44,51 @@
 .artIzq{
     width: 80%;
     height: 80%;
-    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.titulosUno{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.pFlexstar{
+    width: 120px;
+    height: 20px;
+    margin-right: 46%;
+}
+
+.contUno{
+   
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.iz1{
+    width: 45%;
+    height: 120px;
+    background: burlywood;
+    border-radius: 6px;
+
+}
+
+.de1{
+    width: 45%;
+    height: 120px;
+    background: cadetblue;
+    border-radius: 6px;
+    
+}
+
+.infCentral{
+    width: 100%;
+    height: 120px;
+    background: rgb(212, 200, 129);
+    border-radius: 6px;
+
 }
 
 .der{
