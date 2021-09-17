@@ -55,9 +55,14 @@
 }
 
 .pFlexstar{
+    color: #7f3f98;
     width: 120px;
     height: 20px;
     margin-right: 46%;
+}
+
+.pde{
+    color: #7f3f98;
 }
 
 .contUno{
@@ -68,25 +73,73 @@
 }
 
 .iz1{
+    display: flex;
+    align-items: flex-start;
     width: 45%;
     height: 120px;
-    background: burlywood;
+    background: #995db5;
     border-radius: 6px;
 
 }
 
-.de1{
+.iz2{
+    display: flex;
+    align-items: center;
     width: 45%;
     height: 120px;
-    background: cadetblue;
+    background: #995db5;
+    border-radius: 6px;
+
+}
+
+.de2{
+    display: flex;
+    align-items: stretch;
+    width: 45%;
+    height: 120px;
+    background: #995db5;
+    border-radius: 6px;
+
+}
+
+
+/* bloques internos */ 
+
+.bi1{
+    background: #ff8d00;
+    width: 55PX;
+    height: 55px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.bi2{
+    background: #ff8d00;
+    width: 55PX;
+    height: 105px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.de1{
+    display: flex;
+    align-items: flex-end;
+    width: 45%;
+    height: 120px;
+    background: #995db5;
     border-radius: 6px;
     
 }
 
 .infCentral{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
     width: 100%;
     height: 120px;
-    background: rgb(212, 200, 129);
+    background: #995db5;
     border-radius: 6px;
 
 }
@@ -100,10 +153,104 @@
     margin-left: 5px;
     background: #f2cef2;
     
+    
 }
 
 .artDer{
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
     height: 80%;
-    border: 1px solid red;
+    margin-top: 20px;
+    
+}
+
+.pUno{
+    display: flex;
+    width: 100%;
+    background: #a648b6;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: flex-start;
+}
+
+.pDos{
+    display: flex;
+    width: 100%;
+    background: #a648b6;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: flex-end;
+}
+
+.pTres{
+    display: flex;
+    width: 100%;
+    background: #a648b6;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.pCuatro{
+    display: flex;
+    width: 100%;
+    background: #a648b6;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.pCinco{
+    display: flex;
+    width: 100%;
+    background: #a648b6;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+.pSeis{
+    display: flex;
+    width: 100%;
+    background: #a648b6;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+
+.b1{
+    background: #ff8d00;
+    width: 60PX;
+    height: 60px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.b2{
+    background: #ff8d00;
+    width: 120pX;
+    height: 60px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.b3{
+    background: #ff8d00;
+    width: 60PX;
+    height: 60px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.box{
+    background: #ff8d00;
+    width: 130px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
 }
