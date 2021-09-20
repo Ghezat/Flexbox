@@ -33,7 +33,6 @@
     width: 50%;
     margin-right: 5px;
     background: #efdbf2;
-   
 }
 
 .align{
@@ -50,8 +49,6 @@
 .titulosUno{
     display: flex;
     justify-content: flex-start;
-    
-    
 }
 
 .pFlexstar{
@@ -66,10 +63,8 @@
 }
 
 .contUno{
-   
     display: flex;
     justify-content:space-between;
-
 }
 
 .iz1{
@@ -79,7 +74,6 @@
     height: 120px;
     background: #995db5;
     border-radius: 6px;
-
 }
 
 .iz2{
@@ -89,7 +83,6 @@
     height: 120px;
     background: #995db5;
     border-radius: 6px;
-
 }
 
 .de2{
@@ -99,7 +92,6 @@
     height: 120px;
     background: #995db5;
     border-radius: 6px;
-
 }
 
 
@@ -130,7 +122,6 @@
     height: 120px;
     background: #995db5;
     border-radius: 6px;
-    
 }
 
 .infCentral{
@@ -141,7 +132,6 @@
     height: 120px;
     background: #995db5;
     border-radius: 6px;
-
 }
 
 .der{
@@ -151,9 +141,7 @@
     align-items: center;
     width: 50%;
     margin-left: 5px;
-    background: #f2cef2;
-    
-    
+    background: #f2cef2;  
 }
 
 .artDer{
@@ -162,7 +150,6 @@
     width: 70%;
     height: 80%;
     margin-top: 20px;
-    
 }
 
 .pUno{
@@ -246,10 +233,45 @@
     box-shadow: 1px 2px 2px 1px #232431;
 }
 
-.box{
+.box1{
+    display: flex;
+    align-items: baseline;
     background: #ff8d00;
     width: 130px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.box2{
+    display: flex;
+    align-items: baseline;
+    background: #ff8d00;
+    width: 130px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.box3{
+    background: #ff8d00;
+    display: flex;
+    align-items: baseline;
+    width: 130px;
     height: 90px;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px #232431;
+}
+
+.box4{
+    background: #ff8d00;
+    display: flex;
+    align-items: baseline;
+    width: 130px;
+    height: 65px;
     margin: 5px;
     border-radius: 6px;
     box-shadow: 1px 2px 2px 1px #232431;
